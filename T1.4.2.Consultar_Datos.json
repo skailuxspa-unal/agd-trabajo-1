@@ -1,0 +1,50 @@
+***$project (aggregation): refinamiento de la base de datos
+
+db.Videos.aggregate([{$project:{
+  video_id_x: 1,
+  category_id: 1,
+  title: 1,
+  trending_date: 1,
+  views: 1,
+  likes: 1,
+  dislikes: 1,
+}
+}])
+
+***$group (aggregation): maximos y minimos vistas videos por categoría
+
+db.Videos.aggregate([{$group: {
+  _id: '$category_id',
+  total: {
+    $sum: 1
+  },
+  vistasmin: {
+    $min:'$views',
+  },
+  vistasmax: {
+    $max: '$views',
+  },
+}}])
+
+***$group (aggregation): maximos y minimos likes/dislikes videos por categoría
+
+db.Videos.aggregate([{$group:{
+  _id: '$category_id', 
+  total: {
+    $sum: 1
+  },
+  Likesmin: {
+    $min:'$likes',
+  },
+  Likesmax: {
+    $max: '$likes',
+  },
+  Dislikesmax: {
+    $max: '$dislikes',
+  },
+  Dislikesmin: {
+    $min: '$dislikes',
+  }
+}}])
+
+

@@ -1,0 +1,201 @@
+db.Videosdata.insertMany([
+   {
+      category_id: '24',
+      title: 'Nikki Bella's Love for Niece Makes Her Want Kids Even More | Total Bellas | E!',
+      trending_date: '18.02.06',
+      views: '770131',
+      likes: '5585',
+      dislikes: '424',
+      comment_count: '727'
+   },
+	
+    {
+      category_id: '10',
+      title: 'Shawn Mendes: The Albume', 'NoSQL',
+      trending_date: '18.27.04',
+      views: '1093538',
+      likes: '96286',
+      dislikes: '1315',
+      comment_count: '105'
+   },
+ 
+     {
+      category_id: '25',
+      title: '8 Kitchen Gadgets put to the Test - Part 23',
+      trending_date: '18.16.03',
+      views: '1057558',
+      likes: '25190',
+      dislikes: '3115',
+      comment_count: '2345'
+   },
+
+     {
+      category_id: '24',
+      title: 'Jimmy Interviews Cardi B',
+      trending_date: '17.22.12',
+      views: '367645',
+      likes: '10456',
+      dislikes: '809',
+      comment_count: '876'
+   },
+
+     {
+      category_id: '26',
+      title: 'Musical Fiction | Rudy Mancuso',
+      trending_date: '17.22.11',
+      views: '7786',
+      likes: '4126',
+      dislikes: '652',
+      comment_count: '4567'
+   },
+
+     {
+      category_id: '24',
+      title: 'We Tried To Re-Create This Cheese-Covered Burger',
+      trending_date: '18.12.05',
+      views: '1417575',
+      likes: '40109',
+      dislikes: '836',
+      comment_count: '587'
+   },
+
+     {
+      category_id: '24',
+      title: 'Taking A Colour Blind Test With Colour Blind Glasses',
+      trending_date: '146538',
+      views: '369780',
+      likes: '202523',
+      dislikes: '9442',
+      comment_count: '5678'
+   },
+
+     {
+      category_id: '23',
+      title: 'Controversial WH adviser speaks out on resignation',
+      trending_date: '17.05.02',
+      views: '202523',
+      likes: '56736',
+      dislikes: '46697',
+      comment_count: '780'
+   },
+
+     {
+      category_id: '19',
+      title: 'Liam Payne - Bedroom Floor (Live Acoustic)',
+      trending_date: '17.05.12',
+      views: '26578',
+      likes: '567890',
+      dislikes: '327',
+      comment_count: '436'
+   },
+
+     {
+      category_id: '15',
+      title: 'Robot Muscle, Photovoltaic Roads, Milking Platypus, Hero Ratsâ€¦ Mind Blow',
+      trending_date: '17.10.12',
+      views: '12444',
+      likes: '1339',
+      dislikes: '154',
+      comment_count: '9876'
+   },
+
+     {
+      category_id: '1',
+      title: 'Logic & Rag'n'Bone Man - Broken People (from Bright: The Album) [Official Audio]',
+      trending_date: '17.06.12',
+      views: '645789',
+      likes: '637',
+      dislikes: '122',
+      comment_count: '450'
+   },
+
+     {
+      category_id: '10',
+      title: 'Mudslides threaten California regions scorched by wildfires',
+      trending_date: '18.14.05',
+      views: '17106',
+      likes: '69',
+      dislikes: '4',
+      comment_count: '5670'
+   },
+
+     {
+      category_id: '25',
+      title: 'OVERBOARD Official Trailer (2018) Anna Faris, Eva Longoria Comedy Movie HD',
+      trending_date: '18.25.07',
+      views: '367859',
+      likes: '1107',
+      dislikes: '46',
+      comment_count: '1789'
+   },
+
+     {
+      category_id: '10',
+      title: 'Amanda Nunes vs Raquel Pennington | HIGHLIGHTS | UFC 224',
+      trending_date: '18.15.05',
+      views: '769802',
+      likes: '2777',
+      dislikes: '667',
+      comment_count: '156'
+   },
+
+     {
+      category_id: '26',
+      title: 'Dovetails for Drawers â€“ the European Way',
+      trending_date: '18.14.02',
+      views: '456732',
+      likes: '4567',
+      dislikes: '9',
+      comment_count: '100'
+   },
+
+     {
+      category_id: '22',
+      title: 'Sade - Flower of the Universe (From Disney's A Wrinkle in Time) [Official Lyric Video]',
+      trending_date: '18.18.03',
+      views: '105674',
+      likes: '19555',
+      dislikes: '377', 
+      comment_count: '567'
+   },
+
+    {
+      category_id: '24',
+      title: 'Congress approves spending bill to end brief government shutd',
+      trending_date: '18.14.02',
+      views: '215213',
+      likes: '746',
+      dislikes: '334',
+      comment_count: '420'
+   },
+
+    {
+      category_id: '17',
+      title: 'Stray Kids Grrr ì´ëŸ‰ì˜ ë²•ì¹™ Performance Video',
+      trending_date: '18.12.01',
+      views: '1768870',
+      likes: '219626',
+      dislikes: '2585',
+      comment_count: '350'
+   },
+
+     {
+      category_id: '17',
+      title: 'This Giant Kielbasa Helped a Michelin-starred Restaurant Start Buying Whole Animals â€” Prime Time',
+      trending_date: '18.22.04',
+      views: '446299',
+      likes: '4295',
+      dislikes: '503',
+      comment_count: '100'
+   },
+
+     {
+      category_id: '22',
+      title: 'Erika Costell - Chitty Bang ft. Jake Paul (Official Music Video)',
+      trending_date: '18.04.06',
+      views: '5270768',
+      likes: '160171',
+      dislikes: '91982',
+      comment_count: '200'
+   }       
+]);
